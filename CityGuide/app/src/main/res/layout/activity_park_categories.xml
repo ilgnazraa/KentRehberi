@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    tools:context=".Categories.ParkCategories">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/general_back_icon" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/general_search_icon"
+                android:padding="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/dingiloglu_park"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Şevket Dingiloğlu Parkı"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Herkesin faydalanıp dinlenebildiği bir park alanı.."/>
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/ahmetpasa_park"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ahmet Cevdet Paşa Parkı"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sakin sessiz yeşillikler arasında;
+çayınızı kahvenizi yudumlarken günün yorgunluğunu atabilirsiniz."/>
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/temel_park"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temel Reis Parkı"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İstasyonun yeşillikleri yanında çocukların oynayabileceği temiz düzenli bir park."/>
+
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/yayla_park"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yayla Parkı"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kırklareli'nin yüksek noktası. Tarihi dokuya sahip olması ve yerel şenliklerin yapılma yeri. bu bölgede Kırklareli'ne ait lezzetleri tadabilmek eşsiz bir deneyim. Hem şehrin havasından farklı, hem de şehre yatkın mesafede."/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

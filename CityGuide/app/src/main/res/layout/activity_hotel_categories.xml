@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    tools:context=".Categories.HotelCategories">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/general_back_icon" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/general_search_icon"
+                android:padding="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/hotelneptun"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEPTUN INN"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ücretler ve müsaitlik durumu ile ilgili olarak bu işletmeyle iletişime geçin. \nTelefon: 0530 391 65 39"/>
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/marbeshotel"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MARBES HOTEL"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fiyat Bilgi:Tek Gece 698TL. \nTelefon: (0288) 214 11 11 \nAdres: Pınar Mah. Rauf Denktaş Blv. No:14/1 Kırklareli Merkez, 39000 Merkez/Kırklareli"/>
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/thracehotel"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thrace Konak Hotel/SPA"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fiyat Bilgisi:Tek Gece 499TL
+            \nAdres: Yayla Mahallesi Yayla Caddesi, Mektep Sk. No:18 -20, 39000 Kırklareli Merkez/Kırklareli
+            \nTelefon: (0288) 692 22 77"/>
+
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/kayapalashotel"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KAYA PALAS HOTEL"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fiyat Bilgisi:Tek Gece 588TL. \nAdres: Pınar, Rauf Denktaş Blv. No:1, 39000 Kırklareli Merkez/Kırklareli
+            \nTelefon: 0542 454 56 26"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
